@@ -5,9 +5,9 @@ let tentativas = 1;
 function exibirTextoNaTela(tag, texto) {
     let campo = document.querySelector(tag);
     campo.innerHTML = texto;
-    responsiveVoice.speak(texto, 'Brazilian Portuguese Female', {te: 1.3;})}
+    responsiveVoice.speak(texto, 'Brazilian Portuguese Female', ate: 1.3;);
 function exibirMensagemInicial(){
-    exibirTextoNaTela('h1','Bem vindo ao jogo do numero secreto');
+    exibirTextoNaTela('h1','Boas vindas ao jogo do numero secreto');
     exibirTextoNaTela('p','Escolha um número entre 1 e ' + numeroLimite + 
         ' e tente acertar o número secreto');
 }
